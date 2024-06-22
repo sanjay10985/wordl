@@ -28,6 +28,8 @@ const App = () => {
     }
   };
 
+  console.log(solution);
+
   useEffect(() => {
     fetchWords();
   }, []);
@@ -94,7 +96,7 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col items-center relative justify-center min-h-screen bg-zinc-900 p-4 md:flex-row">
+    <div className="flex  items-center relative justify-center min-h-screen bg-zinc-900 p-4 flex-col-reverse md:flex-row">
       <Sidebar />
       <div className="flex flex-col items-center justify-center flex-1">
         <motion.h1

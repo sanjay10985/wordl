@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Sidebar = () => {
   return (
     <motion.div
-      className="w-full md:w-1/4 bg-zinc-800 absolute p-6 right-8 rounded-lg shadow-md mb-8 md:mb-0 md:mr-8"
+      className="w-full md:w-1/4 bg-zinc-800 2xl:absolute p-6 right-8 rounded-lg shadow-md mb-8 md:mb-0 md:mr-8"
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
